@@ -4,12 +4,13 @@
 
 # LLMwrapp
 
-A framework written in rust, that gives you simple control over your LLM models and their parametrs!
+A wrapper written in rust, that gives you simple control over your LLM models and their parametrs!
 
+Currently is heavy WIP.
 
 ## Roadmap
 
-- Refactor all main.rs
+- Refactor all main.rs to struct and functions
 
 - Use dotenv for model loading
 
