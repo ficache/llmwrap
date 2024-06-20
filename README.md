@@ -1,5 +1,5 @@
 
-![alt text](https://github.com/Dixxe/LLMwrap/blob/main/media/llmwrap-head?raw=true)
+![alt text](https://github.com/Dixxe/LLMwrap/blob/main/llmwrap-head.png?raw=true)
 
 # LLMwrapp
 
