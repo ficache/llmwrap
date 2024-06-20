@@ -36,6 +36,12 @@ edit line of code that defines path to model
 
 Contributions are always welcome!
 
+## Dependencies
+
+This project uses the following dependencies:
+
+- [rustformers/llm](https://github.com/rustformers/llm) - Licensed under both the Apache License 2.0 and the MIT License.
+
 
 ## Authors
 
