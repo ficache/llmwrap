@@ -5,9 +5,13 @@
 
 A wrapper for LLMs written fully in rust as hobby project to practice my rust skills and knowledge!
 
-## Supported models
+## Important information
 
 LLMwrap based on rustformers, but in current state only **llama** or **llama based** models are supported. I succsesfully run and test this project with [Vicuna](https://huggingface.co/TheBloke/vicuna-7B-v1.5-GGML)
+
+On my laptop with RTX 3050ti 4gb VRAM + Ryzen 5600H one each prompt lasts 60-120 sec. This is the most powerfull PC I have and I *hope* it runs better on beefy PC.
+
+*If not.. its a bit tedious*
 
 ## Roadmap
 
