@@ -4,17 +4,19 @@
 
 # LLMwrapp
 
-A wrapper written in rust, that gives you simple control over your LLM models and their parametrs!
+A wrapper for LLMs written fully in rust as hobby project to practice my rust skills and knowledge!
 
-Currently is heavy WIP.
+## Supported models
+
+LLMwrap based on rustformers, but in current state only **llama** or **llama based** models are supported. I succsesfully run and test this project with [Vicuna](https://huggingface.co/TheBloke/vicuna-7B-v1.5-GGML)
 
 ## Roadmap
 
-- Refactor all main.rs to struct and functions
+[x] Refactor all main.rs to struct and functions
 
 - Use dotenv for model loading
 
-- Implement async functions and streaming output of the model
+- Implement async functions for anwser generation
 
 - Add support for all models that supported by `rustformers` crate
 
@@ -30,7 +32,15 @@ Now install any Llama **GGMLv3** language model and put it inside folder.
 
 edit line of code that defines path to model
 
-(WIP: will be change to .env variable in future)    
+`let model = load_model("your_path_here", 2048, true, Some(10));`
+
+Change code related to personality, name and your prompts!
+
+Run everything with
+
+`cargo run`
+
+(WIP: all variables will be stored in .env in future)    
 
 ## Contributing
 
